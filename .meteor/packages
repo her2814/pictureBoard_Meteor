@@ -20,3 +20,5 @@ shell-server@0.3.1            # Server-side component of the `meteor shell` comm
 twbs:bootstrap
 momentjs:moment
 rzymek:moment-locale-ko
+mediumeditor:mediumeditor@=5.2.0
+random

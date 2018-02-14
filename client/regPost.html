@@ -18,7 +18,11 @@
                         <div class="form-group">
                             <label>이미지</label>
                             <div class="well">
-                                <p class="help-block">아래에서 업로드할 이미지를 선택하세요</p>
+                                    {{#if tempImage}}
+                                    <img src="/temp/{{tempImage}}" class="img-rounded" style="width:100%;">
+                                    {{else}}
+                                    <p class="help-block">아래에서 업로드할 이미지를 선택하세요</p>
+                                {{/if}}
                             </div>
                         </div>
                         <div class="well">
